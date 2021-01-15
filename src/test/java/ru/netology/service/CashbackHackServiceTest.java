@@ -3,8 +3,6 @@ package ru.netology.service;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
-
 public class CashbackHackServiceTest {
 
     @org.junit.Test
@@ -15,7 +13,7 @@ public class CashbackHackServiceTest {
         int expected = 1000;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @org.junit.Test
@@ -26,7 +24,7 @@ public class CashbackHackServiceTest {
         int expected = 999;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @org.junit.Test
@@ -37,7 +35,7 @@ public class CashbackHackServiceTest {
         int expected = 500;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @org.junit.Test
@@ -48,7 +46,7 @@ public class CashbackHackServiceTest {
         int expected = 1;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @org.junit.Test
@@ -59,7 +57,7 @@ public class CashbackHackServiceTest {
         int expected = 0;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @org.junit.Test
@@ -70,7 +68,7 @@ public class CashbackHackServiceTest {
         int expected = 999;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @org.junit.Test
@@ -81,7 +79,7 @@ public class CashbackHackServiceTest {
         int expected = 700;
         int actual = cashbackHackService.remain(amount);
 
-        assertEquals(expected, actual);
+        org.junit.Assert.assertEquals(expected, actual);
     }
 
     @Test
